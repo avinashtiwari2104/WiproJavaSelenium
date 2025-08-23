@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Functional]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="methods" name="FunctionalTestCases(failed)">
+    <classes>
+      <class name="com.wiprojuly.testing.TestNGPriortyExecutionEg">
+        <methods>
+          <include name="testalerts"/>
+        </methods>
+      </class> <!-- com.wiprojuly.testing.TestNGPriortyExecutionEg -->
+    </classes>
+  </test> <!-- FunctionalTestCases(failed) -->
+</suite> <!-- Failed suite [Functional] -->

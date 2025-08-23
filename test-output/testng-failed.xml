@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DB Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Database Login Test(failed)">
+    <classes>
+      <class name="com.wiprojuly.fetchfromdatabase.TestDatabaseFetch">
+        <methods>
+          <include name="readfromdatabase"/>
+        </methods>
+      </class> <!-- com.wiprojuly.fetchfromdatabase.TestDatabaseFetch -->
+    </classes>
+  </test> <!-- Database Login Test(failed) -->
+</suite> <!-- Failed suite [DB Suite] -->
