@@ -2,7 +2,7 @@
 <suite name="DB Suite">
   <test name="Database Login Test">
     <classes>
-      <class name="com.wiprojuly.testing.TestNGFormFilling"/>
+      <class name="com.wiprojuly.testing.TestNGTestcase"/>
     </classes>
   </test>
 </suite>
